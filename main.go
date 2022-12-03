@@ -8,5 +8,5 @@ func main() {
 }
 
 func home(response http.ResponseWriter, request *http.Request) {
-	response.Write([]byte("testing"))
+	response.Write([]byte("testing jenkins"))
 }
